@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Favorite Base</string>
+    <string name="home">Home</string>
+    <string name="movies">Movies</string>
+    <string name="favorites">Favorites</string>
+    <string name="tvshows">TV Shows</string>
+    <string name="change_language">Change Language</string>
+    <string name="failure">Failure to Load Data</string>
+
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="button">Button Function</string>
+    <string name="poster">Poster</string>
+    <string name="title">Title</string>
+    <string name="ontheair_tv">On The Air TV Shows</string>
+    <string name="description">Overview</string>
+    <string name="released">Released</string>
+    <string name="images">Images</string>
+    <string name="rating">Rating</string>
+    <string name="DiscoverMovie">Discovery\nPopular\nMovies</string>
+    <string name="DiscoverTVShow">Discovery\nPopular\nTV Shows</string>
+    <string name="DiscoverFavorite">Favorites\nby Me</string>
+    <string name="genre">Genre</string>
+    <string name="overview">Overview</string>
+    <string name="information">Information</string>
+    <string name="language">Language</string>
+    <string name="vote_count">Vote Count</string>
+    <string name="reviewer">Reviewer</string>
+    <string name="value_rating">8.6</string>
+    <string name="add_to_favorite">Add to Favorite</string>
+
+    <string name="popularity">Popularity</string>
+    <string name="placeholder">What do you want to search ?</string>
+    <string name="notifications">Notifications</string>
+    <string name="placeholder_movies">Search your popular movies</string>
+    <string name="placeholder_tvs">Search your popular tv shows</string>
+    <string name="released_reminder">Release Reminder</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="overview_released_reminder">Reminder showing the movie or tv show released today</string>
+    <string name="overview_daily_reminder">Daily reminder for checking the movies or tv shows</string>
+    <string name="label_result">The Result of</string>
+    <string name="tv_result">Result</string>
+    <string name="toast_fav">Successfully added to your favorites</string>
+    <string name="toast_unfav">Successfully removed from your favorites</string>
+    <string name="daily_remind">Hey you what\'s up?, It\'s time to check Movie Base app to update your information about movies or tv shows.</string>
+    <string name="toast_error">Failed to load data</string>
+    <string name="released_remind">New movie has been released now. Let\'s go checkout now</string>
+    <string name="tv_banner">Your Favorite Movies</string>
+    <string name="more">More</string>
+
+</resources>

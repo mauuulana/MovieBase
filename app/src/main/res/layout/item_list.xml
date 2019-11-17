@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="153dp"
+            android:id="@+id/img_poster"
+            android:contentDescription="@string/poster"/>
+
+        <TextView
+            style="@style/TextTitle"
+            android:id="@+id/tv_title"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_toEndOf="@id/img_poster"
+            tools:text="@string/title"
+            android:layout_marginBottom="8dp"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_below="@+id/tv_title"
+            android:layout_above="@id/layout_movie_rating_released"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_toEndOf="@id/img_poster"
+            android:id="@+id/tv_description"
+            style="@style/TextDescriptionList"
+            tools:text="@string/description"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_movie_rating_released"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_toEndOf="@id/img_poster"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/ic_star"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/images"/>
+
+            <TextView
+                style="@style/TextContentSmall"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_rating"
+                tools:text="@string/rating" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="@string/released"
+                android:id="@+id/tv_released"
+                android:textColor="@android:color/darker_gray"
+                android:gravity="end"
+                style="@style/TextContentSmall" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
